@@ -77,11 +77,9 @@ impl BuyerGroup {
     }
     
 
-
     fn buy(&mut self, index: usize, seller: &mut Seller){
-          
-          let  member = self.buyers.get(index);
-          if let Some(_) =  member{
+
+          if let  Some(_) = self.buyers.get(index){
             let mut buyer = &mut self.buyers[index];
             loop {
                 if  buyer.balance >= seller.price {
@@ -92,8 +90,8 @@ impl BuyerGroup {
                     println!("{} Balance {} insuffient fund. Seller Balance {}", buyer.name, buyer.balance, seller.balance);
                     break;
                 }
-            } 
-        }
+            }   
+          }
         
     }
  }
