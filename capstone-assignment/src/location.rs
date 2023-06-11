@@ -93,7 +93,6 @@ impl Country {
             Country::Spain => Some("Spain") ,
             Country::India => Some("India") , 
             Country::Switzerland => Some("Switzerland") ,
-            _ => None,
 
         }
     }
