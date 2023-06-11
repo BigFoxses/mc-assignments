@@ -1,5 +1,5 @@
 //
-// Day1 - assignment#1 
+//Day1 - assignment#1 
 //1. Define a User struct which contains 2 fields:
 //a. name (string e.g "John")
 //b. balance (tuple e.g (100.00, "SGD"))
